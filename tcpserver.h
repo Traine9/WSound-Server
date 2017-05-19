@@ -22,8 +22,6 @@ public slots:
     Disconnect();
     newConnection();
     readData();
-private:
-    QThread *thread = 0;
 
 };
 
